@@ -6,6 +6,9 @@ app = Flask(__name__)
 DB_PASSWORD = "P@ssw0rd"
 
 
+x = 'qwe'
+
+
 def get_db():
     conn = sqlite3.connect('users.db')
     return conn
